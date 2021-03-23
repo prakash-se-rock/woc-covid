@@ -10,10 +10,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/woc_covid
 spring.datasource.username=root
 spring.datasource.password=mani@mysql
-
-#spring.profiles.active=qa
-
 spring.mvc.view.prefix=/WEB-INF/jsp/
 spring.mvc.view.suffix=.jsp
+
 5. woc-covid/src/main/com/woc/bms/WOCCovidApplication.java -> run as java application
 6. open browser and run - http://localhost:8321/
